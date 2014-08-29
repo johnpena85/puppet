@@ -4,6 +4,7 @@ ensure => installed,
 }
 service {'nginx':
 ensure => running,
+enabled => true,
 require => Package['nginx'],
 }
 file {'/var/www/cat-pictures/index.html':
