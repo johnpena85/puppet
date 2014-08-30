@@ -1,3 +1,5 @@
+#Manages classes via Puppet
+
 class nginx {
 package {'nginx':
 ensure => installed,
